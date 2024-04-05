@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/imageview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090908"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Enter Age"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="466dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <Button
+        android:id="@+id/comparebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="483dp"
+        android:layout_marginEnd="268dp"
+        android:layout_marginBottom="200dp"
+        android:clickable="true"
+        android:text="GENERATE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ClearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="227dp"
+        android:layout_marginTop="483dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="200dp"
+        android:clickable="true"
+        android:text="CLEAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/textnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="165dp"
+        android:layout_marginEnd="36dp"
+        android:backgroundTint="#151313"
+        android:ems="10"
+        android:inputType="number"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="107dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="406dp"
+        android:layout_marginEnd="246dp"
+        android:layout_marginBottom="275dp"
+        android:text="Enter Age"
+        android:textColorHighlight="#A1A9A1"
+        android:textColorHint="#FEFEFE"
+        android:textColorLink="#D9CACA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="372dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="549dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="12dp"
+        android:text="Results"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="345dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pi_1_" />
+
+    <TextView
+        android:id="@+id/Textview"
+        android:layout_width="210dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="640dp"
+        android:text="HISTORY"
+        android:textColor="#FDFDFD"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="318dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="203dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="466dp"
+        android:text="Those who don't know history are destined to repeat it!"
+        android:textColor="#FEFEFE"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
